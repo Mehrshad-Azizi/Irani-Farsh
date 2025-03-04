@@ -1,0 +1,76 @@
+header {
+  width: 100%;
+  height: 8.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid var(--neutral-4);
+}
+
+.header_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_top div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.header_top .header_logo {
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+.header_btns {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.header_btns button:first-child {
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border-radius: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 0.75rem;
+}
+
+.header_btns button:last-child {
+  width: 9.5625rem;
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  height: 3rem;
+  transition: background-color 0.3s ease-in;
+  cursor: pointer;
+}
+
+.header_btns button:last-child:hover {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  color: var(--neutral-0);
+}
+
+#navbar {
+  display: flex;
+  gap: 2.5rem;
+  margin-top: 1.3rem;
+}
+
+#navbar li a {
+  font-size: 1rem;
+  color: var(--neutral-13);
+  transition: all 0.3s ease-in;
+}
+
+#navbar li a:hover {
+  color: var(--primary);
+}
+
+#navbar li a.active {
+  color: var(--primary);
+}

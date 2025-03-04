@@ -1,0 +1,29 @@
+#search {
+  position: relative;
+}
+
+#search input {
+  width: 27.4375rem;
+  height: 3rem;
+  background-color: var(--neutral-3);
+  border-radius: 0.75rem;
+  outline: none;
+  border: none;
+  text-indent: 9%;
+  transition: all 0.2s ease-in;
+}
+
+#search input:focus {
+  background-color: var(--neutral-4);
+}
+
+#search input::placeholder {
+  color: var(--neutral-9);
+  font-size: 1rem;
+}
+
+.search_icon {
+  position: absolute;
+  top: 48%;
+  transform: translate(-50%, -50%);
+}
