@@ -1,0 +1,62 @@
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+#hero div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero .hero_title {
+    font-size: 2.4rem;
+}
+
+#hero .hero_title span:last-child {
+  color: var(--primary);
+  margin-right: 0.625rem;
+}
+
+#hero .hero_description {
+  width: 67%;
+  text-align: center;
+  line-height: 2.5;
+  margin-block: 1rem 2rem;
+}
+
+#hero .hero_btns {
+  display: flex;
+  gap: 2rem;
+}
+
+#hero .hero_btns button:first-child {
+  width: 12.875rem;
+  height: 3.5rem;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-in;
+}
+
+#hero .hero_btns button:first-child:hover {
+  background-color: var(--primary);
+  color: var(--neutral-0);
+}
+
+#hero .hero_btns button:last-child {
+  width: 13.5rem;
+  height: 3.5rem;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  color: var(--neutral-0);
+  transition: all 0.3s ease-in;
+}
+
+#hero .hero_btns button:last-child:hover {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}

@@ -9,7 +9,7 @@ const HeaderTop = () => {
   return (
     <div className="header_top">
       <div>
-        <h1 className="header_logo">ایرانی فرش</h1>
+        <h2 className="header_logo">ایرانی فرش</h2>
         <Search />
       </div>
 
