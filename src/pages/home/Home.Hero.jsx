@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import img1 from "../../images/img-1.webp";
 
 const HomeHero = () => {
@@ -15,8 +16,12 @@ const HomeHero = () => {
         </p>
 
         <div className="hero_btns">
-            <button className="button">محصولات ویژه ایرانی فرش</button>
-            <button className="button">عضویت در باشگاه مشتریان</button>
+          <Link to="/" className="button">
+            محصولات ویژه ایرانی فرش
+          </Link>
+          <Link to="/" className="button">
+            عضویت در باشگاه مشتریان
+          </Link>
         </div>
       </div>
       <div>
