@@ -1,10 +1,13 @@
 import HomeHero from "./Home.Hero";
-import "../styles/home.css"
+import HomeCategories from "./Home.Categories";
+import { categories } from "../../data/data";
+import "../styles/home.css";
 
 const Home = () => {
   return (
     <>
       <HomeHero />
+      <HomeCategories categories={categories} />
     </>
   );
 };

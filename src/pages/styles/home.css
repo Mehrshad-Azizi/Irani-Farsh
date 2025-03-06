@@ -13,7 +13,7 @@
 }
 
 #hero .hero_title {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 
 #hero .hero_title span:last-child {
@@ -59,4 +59,122 @@
   background-color: transparent;
   color: var(--primary);
   border: 1px solid var(--primary);
+}
+
+#home_categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "new rect padari"
+    "new rect mokat";
+  gap: 1.4375rem;
+  margin: 2rem 0;
+}
+
+#home_categories .home_category {
+  height: 18rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.3rem;
+}
+
+#home_categories .home_category:nth-child(1) {
+  background: linear-gradient(
+      269.67deg,
+      rgba(1, 48, 117, 0.8) -96.09%,
+      rgba(0, 0, 0, 0) 99.55%
+    ),
+    linear-gradient(
+      270.11deg,
+      rgba(2, 47, 113, 0.6) -99.67%,
+      rgba(0, 0, 0, 0) 99.78%
+    ),
+    url("../../images/img-2.webp");
+  background-size: cover;
+  background-position: center;
+  grid-area: new;
+}
+
+#home_categories .home_category:nth-child(2) {
+  background: linear-gradient(
+      269.67deg,
+      rgba(1, 48, 117, 0.8) -96.09%,
+      rgba(0, 0, 0, 0) 99.55%
+    ),
+    linear-gradient(
+      270.11deg,
+      rgba(2, 47, 113, 0.6) -99.67%,
+      rgba(0, 0, 0, 0) 99.78%
+    ),
+    url("../../images/img-3.webp");
+  background-size: 100% auto;
+  background-position: center;
+  grid-area: rect;
+}
+
+#home_categories .home_category:nth-child(3) {
+  background: linear-gradient(
+      269.67deg,
+      rgba(1, 48, 117, 0.8) -96.09%,
+      rgba(0, 0, 0, 0) 99.55%
+    ),
+    linear-gradient(
+      270.11deg,
+      rgba(2, 47, 113, 0.6) -99.67%,
+      rgba(0, 0, 0, 0) 99.78%
+    ),
+    url("../../images/img-4.webp");
+  height: 8.25rem;
+  background-size: cover;
+  background-position: 25% 83%;
+  grid-area: padari;
+}
+
+#home_categories .home_category:nth-child(4) {
+  background: linear-gradient(
+      269.67deg,
+      rgba(1, 48, 117, 0.8) -96.09%,
+      rgba(0, 0, 0, 0) 99.55%
+    ),
+    linear-gradient(
+      270.11deg,
+      rgba(2, 47, 113, 0.6) -99.67%,
+      rgba(0, 0, 0, 0) 99.78%
+    ),
+    url("../../images/img-5.webp");
+  height: 8.25rem;
+  background-size: cover;
+  background-position: 25% 83%;
+  grid-area: mokat;
+}
+
+#home_categories h2 {
+  color: var(--neutral-0);
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 0.3rem;
+}
+
+#home_categories .category_link {
+  width: 13.625rem;
+  height: 3rem;
+  background-color: transparent;
+  color: var(--neutral-0);
+  border: 1px solid var(--neutral-0);
+  font-size: 0.9rem;
+  transition: all 0.3s ease-in;
+}
+
+#home_categories .category_link:hover {
+  background-color: var(--neutral-0);
+  color: var(--neutral-13);
+}
+
+#home_categories .small_categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
