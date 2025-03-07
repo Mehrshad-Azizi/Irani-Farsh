@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 4rem;
+  margin-block: 4rem;
 }
 
 #hero div:first-child {
@@ -69,7 +69,6 @@
     "new rect padari"
     "new rect mokat";
   gap: 1.4375rem;
-  margin: 2rem 0;
 }
 
 #home_categories .home_category {
