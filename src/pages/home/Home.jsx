@@ -9,10 +9,15 @@ const Home = () => {
   return (
     <>
       <HomeHero />
-      <HomeCategories categories={categories} />
+      <HomeCategories categories={categories[0]} />
       <ProductGrid
         title={productGrid[0].title}
         data={productGrid[0].products}
+      />
+      <HomeCategories categories={categories[1]} />
+      <ProductGrid
+        title={productGrid[1].title}
+        data={productGrid[1].products}
       />
     </>
   );
