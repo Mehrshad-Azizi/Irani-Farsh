@@ -4,6 +4,7 @@ import HomeHero from "./Home.Hero";
 import HomeCategories from "./Home.Categories";
 import ProductGrid from "../../components/ProductGrid";
 import "../styles/home.css";
+import HomeMembership from "./Home.Membership";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         title={productGrid[1].title}
         data={productGrid[1].products}
       />
+      <HomeMembership />
     </>
   );
 };

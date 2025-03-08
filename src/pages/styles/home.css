@@ -149,3 +149,47 @@
   background-color: var(--neutral-0);
   color: var(--neutral-13);
 }
+
+#home_membership {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home_membership div {
+  width: 34%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3125rem;
+}
+
+#home_membership div h2 {
+  font-size: 2.2rem;
+}
+
+#home_membership div h2 span:last-child {
+  color: var(--primary);
+}
+
+#home_membership div p {
+  font-weight: 100;
+  text-align: center;
+  line-height: 2.5;
+}
+
+#home_membership div a {
+  width: 27.375rem;
+  height: 3.5rem;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  transition: all 0.3s ease-in-out;
+}
+
+#home_membership div a:hover {
+  background-color: var(--primary);
+  color: var(--neutral-0);
+}
