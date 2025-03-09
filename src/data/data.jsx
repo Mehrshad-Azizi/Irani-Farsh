@@ -10,6 +10,10 @@ import img10 from "../images/img-10.webp";
 import img11 from "../images/img-11.webp";
 import img12 from "../images/img-12.webp";
 import img13 from "../images/img-13.webp";
+import img15 from "../images/img-15.webp";
+import img16 from "../images/img-16.webp";
+import img17 from "../images/img-17.webp";
+import img18 from "../images/img-18.webp";
 
 export const categories = [
   [
@@ -45,24 +49,28 @@ export const categories = [
   [
     {
       id: 5,
+      img: img15,
       title: "فرش مدرن فانتزی",
       description: "مشاهده و خرید فرش مدرن",
       url: "/",
     },
     {
       id: 6,
+      img: img16,
       title: "فرش دستبافت تبریز",
       description: "مشاهده و خرید فرش تبریز",
       url: "/",
     },
     {
       id: 7,
+      img: img17,
       title: "قالیچه دستبافت",
       description: "مشاهده و خرید قالیچه",
       url: "/",
     },
     {
       id: 8,
+      img: img18,
       title: "قالیچه ماشینی",
       description: "مشاهده و خرید قالیچه",
       url: "/",
