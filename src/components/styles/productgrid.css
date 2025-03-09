@@ -1,4 +1,6 @@
 #grid {
+  max-width: 81%;
+  margin: auto;
   margin-block: 7.5rem;
 }
 

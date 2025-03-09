@@ -5,10 +5,12 @@
 
 :root {
   --neutral-0: #ffffff;
+  --neutral-2: #F9F9F9;
   --neutral-3: #ededed;
   --neutral-4: #e1e1e1;
   --neutral-5: #D9D9D9;
   --neutral-9: #717171;
+  --neutral-10: #505050;
   --neutral-13: #121212;
   --primary: #cb1b1b;
 }
@@ -21,8 +23,6 @@
 }
 
 body {
-  width: 81%;
-  margin: auto;
   direction: rtl;
 }
 
@@ -45,4 +45,5 @@ a {
   border-radius: 0.75rem;
   font-size: 1rem;
   cursor: pointer;
+  user-select: none;
 }

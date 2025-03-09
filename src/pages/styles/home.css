@@ -1,4 +1,6 @@
 #hero {
+  max-width: 81%;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -62,6 +64,8 @@
 }
 
 .home_categories {
+  max-width: 81%;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
@@ -151,6 +155,8 @@
 }
 
 #home_membership {
+  max-width: 81%;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
